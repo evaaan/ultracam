@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "XCZU4CG-2SFVC784E"
+    ]
   },
   "meta": {
     "filename": "ultracam.kicad_pro",
@@ -320,6 +322,14 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "9bb175fa-6e43-4e05-b3d1-83769f949e59",
+      "zynq_top"
+    ],
+    [
+      "80d9482b-bcd4-4b7b-9996-3adcb233d947",
+      "zynq_power"
     ]
   ],
   "text_variables": {}

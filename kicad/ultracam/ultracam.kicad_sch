@@ -2,13 +2,39 @@
 
   (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
 
-  (paper "A4")
+  (paper "B")
+
+  (title_block
+    (title "Ultracam")
+    (date "2022-10-29")
+    (rev "01")
+  )
 
   (lib_symbols
   )
 
 
+  (sheet (at 185.42 77.47) (size 60.96 80.01) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9bb175fa-6e43-4e05-b3d1-83769f949e59)
+    (property "Sheet name" "zynq_top" (id 0) (at 185.42 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "zynq_top.kicad_sch" (id 1) (at 185.42 158.0646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
+    (path "/9bb175fa-6e43-4e05-b3d1-83769f949e59" (page "2"))
+    (path "/9bb175fa-6e43-4e05-b3d1-83769f949e59/80d9482b-bcd4-4b7b-9996-3adcb233d947" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/9bb175fa-6e43-4e05-b3d1-83769f949e59/80d9482b-bcd4-4b7b-9996-3adcb233d947/b1b86599-bf60-4e01-b857-ef457363a422"
+      (reference "U?") (unit 15) (value "XCZU4CG-2SFVC784E") (footprint "SnapEDA Library:BGA784C80P28X28_2300X2300X332N")
+    )
   )
 )
